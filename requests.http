@@ -2,9 +2,10 @@
 POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
-{"name":"Felipe Sapogal",
-"age":"42",
-"email":"felipe@gmail.com"}
+{"name":"Hola",
+"email":"Hola@gmail.com",
+"password":"123",
+"type":"admin"}
 
 ###
 
@@ -17,8 +18,24 @@ PUT  http://localhost:9000/api/users/62ed37e734cb30d48db11963 HTTP/1.1
 Content-Type: application/json
 
 {"name":"Usuario Pruebas ",
-"age":"21",
+"password":"21",
 "email":"pruebas@gmail.com"}
 
 ###
 DELETE http://localhost:9000/api/users/62eae570764202402e25ae70 HTTP/1.1
+
+###
+
+POST http://localhost:9000/api/services HTTP/1.1
+Content-Type: application/json
+
+{"id":"2",
+"name":"Diseño",
+"modification_date":"2022-09-01",
+"modification_user":"hola"},
+{"id":"3",
+"name":"Programación",
+"modification_date":"2022-09-01",
+"modification_user":"hola"}
+
+###

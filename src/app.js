@@ -7,6 +7,7 @@ const path = require("path");
 const session = require("express-session");
 const mongoose = require("mongoose");
 const userRoutes = require("./routes/user");
+const serviceRoutes = require("./routes/service");
 const port = process.env.PORT || 9000;
 
 const authRoutes = require("./routes/authorization");
@@ -27,6 +28,7 @@ app.set("views", path.resolve(__dirname, "./views"));
 //routes
 app.use("/", authRoutes);
 app.use("/api", userRoutes);
+app.use("/api", serviceRoutes);
 app.use((req, res, next) => {
   res.status(404).render("notFound");
 });

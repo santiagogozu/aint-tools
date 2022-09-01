@@ -1,0 +1,42 @@
+[
+    {
+        "id":0,
+        "nombre": "Catalogo",
+        "descripcion": "Base de datos de todos los equipos donde se prodrá identificar funcionamientos, marcas y referencias",
+        "imagen": "",
+        "tipo":"servicio",
+        "url":"catalogo"
+    },
+    {
+        "id":1,
+        "nombre": "Cotización Mano de Obra",
+        "descripcion": "Herramienta para la realización de cotización de mano de obra en el formato indicado y con precios actualizados",
+        "imagen": "",
+        "tipo":"servicio",
+        "url":"cotizacion"
+    },
+    {
+        "id":2,
+        "nombre": "Listado de equipos",
+        "descripcion": "Enlistar equipos con sus respectivas cantidades para la realizacion de un proyecto",
+        "imagen": "",
+        "tipo":"servicio",
+        "url":"listado"
+    },
+    {
+        "id":3,
+        "nombre": "Historial de Proyectos",
+        "descripcion": "Base de datos de proyectos donde se enlista los equipos y los componentes de mano de obra utilizados en proyectos especificos",
+        "imagen": "",
+        "tipo":"servicio",
+        "url":"historial"
+    },
+    {
+        "id":4,
+        "nombre": "Plantillas de Proyectos",
+        "descripcion": "Bases para un proyecto escogiendo el tipo de proyecto",
+        "imagen": "",
+        "tipo":"servicio",
+        "url":"plantillas"
+    }
+]
