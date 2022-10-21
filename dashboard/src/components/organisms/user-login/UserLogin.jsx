@@ -15,11 +15,13 @@ const UserLogin = () => {
   //   };
   return (
     <React.Fragment>
-      <div className="contLogo">
+      <div className="cont-logo">
         <img src={logo.url} alt={logo.alt} />
       </div>
       <div className="login-box">
-        <h2>Login</h2>
+        <h2>Bienvenido</h2>
+        <h5>Departamento de ingeniería de Ambientes Inteligentes</h5>
+
         <form>
           <div className="user-box">
             <input type="text" name="" required="" />
@@ -29,13 +31,13 @@ const UserLogin = () => {
             <input type="password" name="" required="" />
             <label>Password</label>
           </div>
-          <a>
+          <Link to="home">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            <Link to="home">Submit</Link>
-          </a>
+            Submit
+          </Link>
         </form>
       </div>
     </React.Fragment>

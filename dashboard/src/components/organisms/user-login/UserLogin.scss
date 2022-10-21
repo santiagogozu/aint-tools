@@ -4,16 +4,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Montserrat;
   background: linear-gradient(142deg, #121a29, #124074, #121a29, #124074);
   background-size: 400% 400%;
   animation: gradient 15s ease-out infinite;
 }
-.contLogo {
+.cont-logo {
   display: flex;
   justify-content: center;
 }
-.contLogo img {
+.cont-logo img {
   width: 100px;
   margin-top: 30px;
 }
@@ -30,7 +30,8 @@ body {
   border-radius: 10px;
 }
 
-.login-box h2 {
+.login-box h2,
+.login-box h5 {
   margin: 0 0 30px;
   padding: 0;
   color: #fff;
@@ -104,7 +105,7 @@ body {
   width: 100%;
   height: 2px;
   background: linear-gradient(90deg, transparent, #03e9f4);
-  animation: btn-anim1 1s linear infinite;
+  animation: btn-anim1 2s linear infinite;
 }
 
 @keyframes btn-anim1 {
@@ -123,8 +124,8 @@ body {
   width: 2px;
   height: 100%;
   background: linear-gradient(180deg, transparent, #03e9f4);
-  animation: btn-anim2 1s linear infinite;
-  animation-delay: 0.25s;
+  animation: btn-anim2 2s linear infinite;
+  animation-delay: 0.5s;
 }
 
 @keyframes btn-anim2 {
@@ -143,8 +144,8 @@ body {
   width: 100%;
   height: 2px;
   background: linear-gradient(270deg, transparent, #03e9f4);
-  animation: btn-anim3 1s linear infinite;
-  animation-delay: 0.5s;
+  animation: btn-anim3 2s linear infinite;
+  animation-delay: 1s;
 }
 
 @keyframes btn-anim3 {
@@ -163,8 +164,8 @@ body {
   width: 2px;
   height: 100%;
   background: linear-gradient(360deg, transparent, #03e9f4);
-  animation: btn-anim4 1s linear infinite;
-  animation-delay: 0.75s;
+  animation: btn-anim4 2s linear infinite;
+  animation-delay: 1.5s;
 }
 
 @keyframes btn-anim4 {
