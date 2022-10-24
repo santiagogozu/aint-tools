@@ -2,6 +2,7 @@ import React from "react";
 import "./Search.scss";
 import { TodoContext } from "../../context/context";
 import {TodoList} from "../../molecules/list/List"
+import Item from "../../atoms/item/Item";
 
 const Search = () => {
 
@@ -21,7 +22,11 @@ const Search = () => {
                 onChange={onSearchValueChange}
             />
             <TodoList>
-                {searchedTodos.map(todo =>(todo.text))}
+                {searchedTodos.map(todo =>
+                <Item
+                   text={todo.text}
+                   />
+                )}
             </TodoList>
         </div>
         
